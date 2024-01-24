@@ -1,0 +1,1 @@
+package org.example.employee;/* Занимается обеспечением безопасности и здоровья сотрудников, соблюдением норм охраны труда */public class MedicalSafetyDepartment extends Employee{    private String medicine;    private int syringes;    public void treats () {        System.out.println("Специалист " + name + " лечит с помощью " + medicine + " и " + syringes);    }}

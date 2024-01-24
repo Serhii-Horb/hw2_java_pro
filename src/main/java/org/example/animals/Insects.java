@@ -1,0 +1,1 @@
+package org.example.animals;/* Насекомые */public class Insects extends Arthropoda{    private int numberWings;    public void flies() {        System.out.println(name + " летит");    }}

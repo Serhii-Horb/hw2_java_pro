@@ -1,0 +1,1 @@
+package org.example.pet;public class SimpleExtends {    public static void main(String[] args) {        Cat cat = new Cat();        cat.run();        Cat cat1 = new Cat("Мурка", 2, 8);        cat1.jump();        cat1.meow();        Dog dog1 = new Dog();        dog1.eats();        Dog dog = new Dog("Шарик", 3, 3.5);        dog.bite();        dog.bark();    }}

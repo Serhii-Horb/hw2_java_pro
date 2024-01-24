@@ -1,0 +1,1 @@
+package org.example.animals;/* Рептилий */public class Reptilia extends Chordata{    private double speed;    public void crawl() {        System.out.println("Рептилий " + name + " ползут со скоростью " + speed);    }}

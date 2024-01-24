@@ -1,0 +1,1 @@
+package org.example.employee;/* Отвечает за продажи продукции или услуг, взаимодействие с клиентами и поиск новых рынков. */public class SalesDepartment extends Employee{    private int numberSales;    public void sells() {        System.out.println("Сотрудник " + name + " продает " + numberSales + " изделий");    }}

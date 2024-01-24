@@ -1,0 +1,1 @@
+package org.example.animals;/* Муха */public class Fly extends  Insects{    public void interferes() {        System.out.println("Муха" + name + " Просто всем мешает");    }}

@@ -1,0 +1,1 @@
+package org.example.animals;/* Членистоногие */public class Arthropoda extends Animal{    private boolean presenceOfArticulatedLimbs = true; // наличие конечностей    private int countLimbs; // количество конечностей    public void run() {        System.out.println(name + " бежит");    }}

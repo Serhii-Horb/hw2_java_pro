@@ -1,0 +1,1 @@
+package org.example.animals;/* Комар */public class Mosquito extends Insects{    private double amountBloodDrunk;    public void drinksBlood() {        System.out.println("Комар " + name + " выпил " + amountBloodDrunk + " крови");    }}

@@ -1,0 +1,1 @@
+package org.example.animals;/* Птицы */public class Aves extends Chordata{    private double liftingForce;    public void carriesLoad() {        System.out.println("Несет груз весом " + liftingForce);    }}

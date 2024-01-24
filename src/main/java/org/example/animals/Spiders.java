@@ -1,0 +1,1 @@
+package org.example.animals;/* Пауки */public class Spiders extends Arthropoda{    public double amountPoison; // количество яда    public void crawls() {        System.out.println(name + " ползёт");    }}

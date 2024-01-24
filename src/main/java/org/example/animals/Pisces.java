@@ -1,0 +1,1 @@
+package org.example.animals;/* Рыбы */public class Pisces extends Chordata{    public double speed;    public void swim() {        System.out.println("Рыба " + name + " плывёт со скоростью " + speed);    }}

@@ -1,0 +1,1 @@
+package org.example.employee;/* Занимается финансовым управлением, бухгалтерией, финансовыми анализами и отчетностью. */public class FinanceDepartment extends Employee{    private String calculator;    public void calculates() {        System.out.println("Сотрудник " + name + " вычисляет зарплату с помощью " + calculator);    }}
